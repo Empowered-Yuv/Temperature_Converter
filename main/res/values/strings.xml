@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">T_Convert</string>
+    <string name="fahrenheit_celsius">Fahrenheit - Celsius</string>
+    <string name="celsius_kelvin">Celsius - Kelvin</string>
+    <string name="fahrenheit_kelvin">Fahrenheit - Kelvin</string>
+    <string name="enter_temperature">Enter Temperature</string>
+    <string name="_0_0">0.0</string>
+    <string name="f_to_c">F To C</string>
+    <string name="c_to_f">C To F</string>
+    <string name="again">Again</string>
+    <string name="convert">Convert</string>
+    <string name="c_to_k">C To K</string>
+    <string name="k_to_c">K To C</string>
+    <string name="k_to_f">K To F</string>
+    <string name="f_to_k">F To K</string>
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".F_and_C"
+    android:background="@drawable/back">
+
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="615dp"
+        android:background="@drawable/edittext_outline"
+        android:ems="10"
+        android:hint="@string/enter_temperature"
+        android:inputType="numberSigned|numberDecimal"
+        android:textAlignment="center"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="483dp"
+        android:text="@string/_0_0"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <RadioGroup
+        android:layout_width="138dp"
+        android:layout_height="143dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="306dp"
+        android:layout_centerInParent="true">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:text="@string/f_to_c"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:text="@string/c_to_f"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="180dp"
+        android:text="@string/convert"
+        android:background="@drawable/bg_button"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="86dp"
+        android:text="@string/again"
+        android:background="@drawable/bg_button"
+        android:textColor="@color/white"/>
+
+
+</RelativeLayout>
